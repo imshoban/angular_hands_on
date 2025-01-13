@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    border-bottom: 1px solid rgb(114, 107, 107);
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    padding-left: 0.5rem;
+    margin-right: 1rem;
+    width: 150px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.logo p{
+    margin-left: 0.5rem;
+}
+.btn{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logout-btn{
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.7rem;
+    border-radius: 10px;
+    transition: all 0.5s;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.logout-btn:hover{
+    background-color: rgb(15, 38, 66);
+    color: white;
+}
+
+
+.text{
+    display: flex;
+    flex: 1;
+
+}
+.text p{
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.text p:hover{
+    text-decoration: underline;
+}
+

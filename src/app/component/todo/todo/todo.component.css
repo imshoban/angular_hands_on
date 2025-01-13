@@ -1,0 +1,84 @@
+.container{
+    max-width: 700px;
+    width: 60%;
+    margin: 5rem auto;
+    border:1px solid grey;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0px 0px 1px 0.5px  grey;
+}
+.todo-container{
+    display: flex;
+    align-items: center;
+}
+.todo-container input[type="text"]{
+    margin-left: 1rem;
+    width: 70%;
+    height: 2.5rem;
+}
+.btn{
+    margin-left: 1rem;
+    width: 4rem;
+    height: 2.6rem;
+    padding: 0.7rem;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(15, 38, 66);
+}
+.btn:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transform: scaleX(1px);
+}
+
+
+
+.single-list, .completed-list-meta{
+    display: flex;
+    background-color: rgb(187, 182, 182);
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+.single-list input[type="checkbox"], .completed-list-meta input[type="checkbox"]{
+    margin: 1rem;
+}
+.completed-list-meta p{
+    text-decoration: line-through;
+}
+input[type="checkbox"]:checked {
+    accent-color: #34495e;
+}
+input[type="checkbox"]
+{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: gray;
+}
+
+.delete-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+.todo-title{
+    flex: 1;
+}
+.delete-icon:hover{
+    cursor: pointer;
+    scale: 1.25;
+}
+.input-field{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+.loading-screen{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+/* ::placeholder{
+} */
